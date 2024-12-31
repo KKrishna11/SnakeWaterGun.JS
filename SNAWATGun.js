@@ -1,7 +1,7 @@
 
-document.write("Snake Water Gun Game")
+document.write("Snake Water Gun Game winner  ")
 
-var opt=['SNAKE','Water','GUN']
+var opt=['SNAKE ','Water ','GUN ']
 
 var selected=opt[Math.floor(Math.random()*opt.length)]
 
@@ -33,7 +33,7 @@ else if(user=='SNAKE'&&optselected=='WATER'){
 }
 else if(user=='WATER'&&optselected=='SNAKE')
 {
-    confirm('COMPUTER  won'+optselected)
+    confirm('COMPUTER  won '+optselected)
 }
 
 else if(user='GUN'&&optselected=='SNAKE')
@@ -44,7 +44,7 @@ else if(user='GUN'&&optselected=='SNAKE')
 
 else if (user=='SNAKE'&&optselected=='GUN')
 {
-    confirm('COMPUTER  won'+optselected)
+    confirm('COMPUTER  won '+optselected)
 }
 
 
@@ -55,9 +55,9 @@ else if(user=='WATER'&&optselected==='GUN')
 
 else if(user=='GUN'&&optselected=='WATER')
 {
-    confirm('COMPUTER  won'+optselected)
+    confirm('COMPUTER  won '+optselected)
 }
 
 else{
-    confirm("user won")
+    confirm(" user won")
 }
